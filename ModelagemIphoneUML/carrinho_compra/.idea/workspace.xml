@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b7b5adc-56cc-43c1-bff0-e46e96a35edc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/README.mb" beforeDir="false" afterPath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/README.mb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../COLLECTIONS/carrinho_compra/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CarrinhoDeCompras.executor": "Run",
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -56,7 +56,7 @@
       <recent name="C:\Users\RH\Documents\SI\dio.backend.java\COLLECTIONS" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarrinhoDeCompras" />
       <module name="carrinho_compra" />
@@ -64,8 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="carrinho_compra" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CarrinhoDeCompras" />
       </list>
     </recent_temporary>
@@ -91,6 +99,7 @@
       <workItem from="1755030978306" duration="77000" />
       <workItem from="1755031590505" duration="2074000" />
       <workItem from="1755089008806" duration="1781000" />
+      <workItem from="1755094044143" duration="94000" />
     </task>
     <servers />
   </component>
