@@ -8,6 +8,7 @@ public class CarrinhoDeCompras {
         this.carinhoCompra = new ArrayList<>();
     }
 
+
     public void adicionarItem(String nome, double preco, int quantidade){
         carinhoCompra.add(new Item(nome, preco, quantidade));
     }
@@ -28,6 +29,32 @@ public class CarrinhoDeCompras {
         }
     }
 
+    public void calcularValorTotal(){
+        double valor = 0;
+        for(Item t : carinhoCompra){
+
+            valor += (t.getPreco() * t.getQuantidade());
+        }
+        System.out.println("O valor total do items do carrinho: R$"+valor);
+    }
+
+    public void infosItem(){
+        System.out.println(carinhoCompra);
+    }
+
+    public static void main(String[] args) {
+        CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
+
+        carrinhoDeCompras.adicionarItem("Arroz",10,2);
+        carrinhoDeCompras.adicionarItem("Feijão",5,1);
+
+        carrinhoDeCompras.calcularValorTotal();
+        carrinhoDeCompras.infosItem();
+
+        carrinhoDeCompras.removerItem("Arroz");
+        carrinhoDeCompras.infosItem();
+    }
 
 
 }
+
